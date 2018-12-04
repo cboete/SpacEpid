@@ -1,0 +1,39 @@
+tailleGrille	100
+typeVoisinage	4
+StopTime	250000
+step	10
+nbTotal	1000
+tauxInfecte	0.2
+TimeMigration	1000
+tauxHR1Sain	0
+tauxHR1Infecte	0
+tauxHR2Sain	0
+tauxHR2Infecte	0
+tauxHR3Sain	100
+tauxHR3Infecte	0
+investissement	1
+cMax1	0	
+cMax2	0.1
+m1	0
+m2	0.8	1
+ratio1	0
+rH1	0.02
+mu	0.01
+tailleVoisinage	1	2	3	4	5
+succesParasite	1
+beta	0.25
+gamma	0.1
+alphaM	0.25
+alphaN	0
+frequenceDependant	1
+ratioEff2	1
+idReplicat	1;3;1 
+
+
+## section to remove to use the parameters.txt as template
+
+
+Note1: When introducing several values as parameters, they have to be separated by tab (as in tailleVoisinage)
+Note2: When using incremented values, they should be introduced as follow:
+lowest value; highest value; increment (as in idReplicat)
+
